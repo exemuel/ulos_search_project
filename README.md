@@ -4,6 +4,8 @@ An educational Content-Based Image Retrieval (CBIR) application built with Pytho
 
 Traditional keyword searches often fail when describing complex geometric patterns or cultural textiles. This project demonstrates how to use Deep Learning (ResNet50) to extract the "visual essence" of traditional Ulos motifs and search a digital archive using vector mathematics (Cosine Similarity) instead of text.
 
+![App User Interface](images/ui.png)
+
 ## 🎯 Learning Objectives
 This repository is designed to help students understand:
 * **Feature Extraction:** How convolutional neural networks (CNNs) convert images into mathematical embeddings (vectors).
