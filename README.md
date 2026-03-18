@@ -12,11 +12,11 @@ This repository is designed to help students understand:
 * **Rapid Prototyping:** How to deploy interactive data applications using Streamlit.
 
 ## 🛠️ Technology Stack
-* **Frontend:** [Streamlit](https://streamlit.io/)
-* **Computer Vision / AI:** [PyTorch](https://pytorch.org/) & `torchvision` (Pre-trained ResNet50)
-* **Image Processing:** Pillow (PIL)
-* **Similarity Computation:** Scikit-learn
-* **Data Handling:** NumPy & Pickle
+* **Frontend:** [Streamlit](https://streamlit.io)
+* **Computer Vision / AI:** [PyTorch](https://pytorch.org) & [`torchvision` (Pre-trained ResNet50)](https://docs.pytorch.org/vision/stable/index.html)
+* **Image Processing:** [Pillow (PIL)](https://python-pillow.github.io)
+* **Similarity Computation:** [Scikit-learn](https://scikit-learn.org/stable)
+* **Data Handling:** [NumPy](https://numpy.org) & [`pickle`](https://docs.python.org/3/library/pickle.html)
 
 ## 📂 Project Structure
 ```text
