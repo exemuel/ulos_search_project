@@ -82,4 +82,3 @@ Looking to push this capstone further? Try these upgrades:
 
 ---
 *Developed for Information Systems research and educational exploration.*
-```
