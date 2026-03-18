@@ -38,7 +38,7 @@ ulos_search_project/
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/YOUR-USERNAME/ulos-visual-search.git](https://github.com/YOUR-USERNAME/ulos-visual-search.git)
+git clone https://github.com/exemuel/ulos_search_project.git
 cd ulos-visual-search
 ```
 
