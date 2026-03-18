@@ -35,10 +35,13 @@ uploaded_file = st.file_uploader("Upload a query image (JPG/PNG)", type=["jpg", 
 if uploaded_file is not None:
     query_img = Image.open(uploaded_file)
     
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns([1, 3])
     with col1:
         st.subheader("Your Query")
         st.image(query_img, use_container_width=True)
+        
+    with col2:
+        st.write("")  # Spacing
         
     with st.spinner("Analyzing motif and searching archive..."):
         # 1. Extract feature vector of the uploaded image
@@ -55,8 +58,8 @@ if uploaded_file is not None:
     st.divider()
     st.subheader("Top Matches found in Archive")
     
-    # Create a grid of 4 columns
-    cols = st.columns(4)
+    # Create a compact grid of 4 columns for results
+    cols = st.columns(4, gap="small")
     for i, idx in enumerate(top_k_indices):
         match_path = db_paths[idx]
         match_score = similarities[idx]
@@ -64,4 +67,4 @@ if uploaded_file is not None:
         match_img = Image.open(match_path)
         with cols[i]:
             st.image(match_img, use_container_width=True)
-            st.caption(f"Similarity Score: {match_score:.2f}")
+            st.caption(f"Score: {match_score:.2f}")
